@@ -25,7 +25,6 @@ public class MovieEntity {
 //	getters, setters
 //	toString
 	
-	
 	public MovieEntity(String movieName, String duration, String releaseDate, List<String> movieCast) {
 		super();
 		this.movieName = movieName;
