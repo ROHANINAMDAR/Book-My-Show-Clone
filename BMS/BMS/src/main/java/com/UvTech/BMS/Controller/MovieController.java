@@ -23,22 +23,7 @@ public class MovieController {
 	public String home() {
 		return "running...!";
 	}
-	
-//	 create project
-//	 run project
-//	create home method
-//	run app 
-//	create entity
-//	
-//	create controlller method
-//	create service layer & method
-//	create interface repo
-//	write code for application.properties
-//	
-	
-	// pathvariable
-	//requestparam
-	//requestBody
+
 	@PostMapping("/addMovie")
 	public String createMovie( @RequestBody MovieEntity movie) {
 		
